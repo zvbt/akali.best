@@ -4,6 +4,10 @@
     <title>Akali | Songs</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/vids.css" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+    ></script>
     <link
       rel="shortcut icon"
       href="https://r2.e-z.host/7ed0180f-b228-49a7-be1e-0183c1938777/gx6anopl.png"
@@ -39,30 +43,16 @@
     </div>
 
     <center>
-      <!-- <video src="c/dring.mp4" class="clips" controls></video> -->
-      <a
-        href="https://www.youtube.com/playlist?list=PLc7jz5KAkGeU_r9hKvlm_Du9aGajC1sPc"
-        target="_blank"
-        >Spaceglider.exe</a
-      >
-      <br />
-      <a
-        href="https://open.spotify.com/playlist/7mNnL7GHjUDlmgzluDTctY?si=64c308c9e1f442a1"
-        target="_blank"
-        >Asian Banger</a
-      >
-      <br />
-      <a
-        href="https://open.spotify.com/playlist/6EQNgKOZIEX4lCvJnasRMh?si=3ee095a528d5411a"
-        target="_blank"
-        >K-POP Banger</a
-      >
-      <br />
-      <a
-        href="https://open.spotify.com/playlist/0B0PUbjbmIX6uEO9SNnx9d?si=2df6d36c33714f6c"
-        target="_blank"
-        >Phonk</a
-      >
+      <zero-md src="./assets/songs/songs.md">
+        <template>
+          <link rel="stylesheet" href="./assets/css/md.css" />
+          <style>
+            a {
+              color: #157a1a !important;
+            }
+          </style>
+        </template>
+      </zero-md>
     </center>
 
     <script src="/assets/js/three.min.js"></script>
